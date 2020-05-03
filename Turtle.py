@@ -3,7 +3,12 @@ import random
 
 p1 = turtle.Turtle()  # MAKING PLAYER ONE
 p1.color("blue")  # ADDING COLOR
-p1.shape("turtle")  # MAKING SHAPE
+p1.shape("turtle") # MAKING SHAPE
+
+wn = turtle.Screen()
+wn.bgcolor("Red")        # adding background color
+wn.title("Turtle Game")
+
 p1.penup()
 p1.goto(-200, 100)  # SETTING THE POSITION OF TURTLE
 p2 = p1.clone()     # CLONING  PLAYER2 WITH PLAYER1
